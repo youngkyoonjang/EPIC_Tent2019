@@ -43,14 +43,11 @@ Columns correspond to:
 ## Frame-by-frame action label ground truths
 
 Frame-by-frame action label ground truths used for the online recognition section of the paper are contained in the frame_level_action_annotation directory.
-
-Each participants has a file of the style: <ParcticipantNumber>.frame_level_gt.txt
+Each participant has a file in the style: <ParcticipantNumber>.frame_level_gt.txt
 
 
 The file contains 2 columns:
-
 frame_digit -> Frame number in GoPro Video
-
 action_id -> Action (sub-task) Label for that frame 
 
 
