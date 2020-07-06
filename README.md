@@ -2,8 +2,7 @@
 EPIC_Tent2019 annotation
 
 Each video has a different frame rate. The annotation files provide a synchronized timestamp between videos.
-
-<root folder>/Synchronised_action_label.txt
+[root folder]/Synchronised_action_label.txt
 
 Columns correspond to:
 1) subject_id <- Subject ID
@@ -21,7 +20,7 @@ Columns correspond to:
 13) end_SMI_wo_frame <- End SMI without eye Frame Index
 14) action_label <- Action (Subtask) Label
 
-<root folder>/Synchronised_error_label.txt
+[root folder]/Synchronised_error_label.txt
 
 1) subject_id <- Subject ID
 2) str_GoPro_ts <- Begin GoPro Timecode
@@ -44,7 +43,7 @@ Columns correspond to:
 
 Frame-by-frame action label ground truths used for the online recognition section of the paper are contained in the frame_level_action_annotation directory.
 
-Each participant has a file in the style: <ParcticipantNumber>.frame_level_gt.txt
+Each participant has a file in the style: [ParcticipantNumber].frame_level_gt.txt
 
 
 The file contains 2 columns:
