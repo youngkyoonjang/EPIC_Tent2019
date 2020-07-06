@@ -40,7 +40,7 @@ Columns correspond to:
 15) error_label_sub <- (concurrent) Error Label (-1 represents no concurrent error label)
 16) action_label <- Action (Subtask) Label associated with Action Segment
 
-## Frame-by-fram action label ground truths
+## Frame-by-frame action label ground truths
 
 Frame-by-frame action label ground truths used for the online recognition section of the paper are contained in the frame_level_action_annotation directory.
 Each participants has a file of the style: <ParcticipantNumber>.frame_level_gt.txt
