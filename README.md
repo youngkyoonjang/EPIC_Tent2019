@@ -2,6 +2,7 @@
 EPIC_Tent2019 annotation
 
 Each video has a different frame rate. The annotation files provide a synchronized timestamp between videos.
+
 [root folder]/Synchronised_action_label.txt
 
 Columns correspond to:
