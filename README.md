@@ -40,7 +40,17 @@ Columns correspond to:
 15) error_label_sub <- (concurrent) Error Label (-1 represents no concurrent error label)
 16) action_label <- Action (Subtask) Label associated with Action Segment
 
-# Appendix: lables associated with index
+## Frame-by-fram action label ground truths
+
+Frame-by-frame action label ground truths used for the online recognition section of the paper are contained in the frame_level_gt directory.
+Each participants has a file of the style: <ParcticipantNumber>.frame_level_gt.txt
+
+The file contains 2 columns:
+frame_digit -> Frame number in GoPro Video
+action_id -> Action (sub-task) Label for that frame 
+
+
+## Appendix: lables associated with index
 
 Action_annotation = {0:'assemble support',   1:'insert stake',           2:'insert support',         3:'insert support tab',
                      4:'instruction',        5:'pickup/open stakebag',   6:'pickup/open supportbag', 7:'pickup/open tentbag',
@@ -48,7 +58,7 @@ Action_annotation = {0:'assemble support',   1:'insert stake',           2:'inse
                             
 Error_annotation = {0:'motor', 1:'misuse', 2:'order', 3:'failure', 4:'omit', 5:'search', 6:'correction', 7:'slow', 8:'repeat'}
 
-# Appendix: note for error annotations
+## Appendix: note for error annotations
 
 Note, begin time codes for Omit and Order error annotations denote time when the error began.
 
