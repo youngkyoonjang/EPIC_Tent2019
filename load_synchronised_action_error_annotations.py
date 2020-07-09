@@ -47,4 +47,5 @@ with open(file_path_error) as csv_file:
                 tmp_dic_key = Error_labelDic_key_list[i]
                 tmp_Dic[tmp_dic_key] = row[i]
             Error_label.append(tmp_Dic)
-print('temp')
+
+print('Done')
