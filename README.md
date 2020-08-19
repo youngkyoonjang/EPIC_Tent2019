@@ -1,7 +1,7 @@
 # EPIC_Tent2019
 Dataset download: https://data.bris.ac.uk/data/dataset/2ite3tu1u53n42hjfh3886sa86
 
-# EPIC_Tent2019 annotation
+## EPIC_Tent2019 annotation
 
 Each video has a different frame rate. The annotation files provide a synchronized timestamp between videos.
 
