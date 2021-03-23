@@ -1,0 +1,55 @@
+EPIC_Tent2019 Look Ahead Fixation (LAF) Annotation
+
+[root folder]/LookAheadFixation.annotation.txt
+
+The data contained in LookAheadFixation.annotation.txt describes timecode and object/labels concerning look ahead fixations made in the EPIC-Tent data set. Note this data is not
+addressed in the ICCV 2019 paper and is instead described in:
+
+Sullivan B; Damen D; Ludwig C; Mayol-Cuevas W; Gilchrist I; Lookahead fixations in visuomotor behavior: Evidence from Assembling a Camping Tent. (Under Review, Journal of Vision, 2020). 
+
+Look ahead fixations, are anticipatory fixations that are made to an object at some point
+in time before the guiding fixation and a touch to interact with the object is made.
+
+All time codes are with respect to the SMI scene camera video with eye gaze cursor.
+
+Note the following 18 participants data were annotated:
+[2,4,5,6,7,8,9,10,11,12,15,16,17,18,20,22,23,24]
+
+SubjectList=[2 4:12 15:18 20 22:24];
+Columns correspond to:
+1. subject_id <- Participant ID 
+2. str_SMI_w_ts_LAF <- LAF begin timecode in SMI eye video time 
+3. end_SMI_w_ts_LAF <- LAF end timecode in SMI eye video time 
+4. str_SMI_w_ts_Fix <- Guiding fixation begin timecode in SMI eye video time 
+5. str_SMI_w_ts_Touch <- Touch/interaction begin timecode in SMI eye video time 
+6. laf_target_label <- Target object label, see dictionary below
+7. current_task_label <- Ongoing task during LAF label, see dictionary below
+
+laf_target_labels= {
+    1:'guyline',    
+    2:'instruction',
+    3:'stake',
+    4:'stake_bag',
+    5:'support',  
+    6:'support_bag',
+    7:'support_tab',
+    8:'tent',
+    9:'tent_bag',
+    10:'tent_corner',
+    11:'tent_top',
+    12:'vent_cover' }
+
+current_task_labels={
+    1: 'approach',
+    2: 'assemble_support',      
+    3: 'insert_stake',          
+    4: 'insert_support',        
+    5: 'insert_support_tab',    
+    6: 'instruction',           
+    7: 'pickup/open_stakebag',  
+    8: 'pickup/open_supportbag',
+    9: 'pickup/open_tentbag',   
+    10: 'pickup/place_ventcover',
+    11: 'place_guyline',         
+    12: 'spread_tent',           
+    13: 'tie_top' }              
